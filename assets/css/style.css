@@ -23,3 +23,8 @@ h1 {
 #rules,  #game{
 	border: 1px solid white;
 }
+
+img {
+	width: 200px;
+	height: 200px;
+}
