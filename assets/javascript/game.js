@@ -1,6 +1,7 @@
 var wins = 0;
 var losses = 0;
 var images = ["assets/images/purple.jpg", "assets/images/blue.jpg", "assets/images/yellow.jpg", "assets/images/green.jpg"];
+var imgAlts = ["Purple Crystal", "Blue Crystal", "Yellow Crystal", "Green Crystal"];
 
 var target;
 var score;
@@ -30,6 +31,7 @@ function setupCrystals() {
 		image.addClass("crystal-image");
 		image.attr("src", images[i]);
 		image.attr("data-value", crystalValues[i]);
+    image.attr("alt", imgAlts[i]);
 		$("#crystals").append(image);
 	}
 
