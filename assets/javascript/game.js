@@ -1,7 +1,7 @@
 var wins = 0;
 var losses = 0;
-var images = ["assets/images/bard.png", "assets/images/syndra.png", "assets/images/ziggs.png", "assets/images/riven.png"];
-var imgAlts = ["Bard", "Syndra", "Ziggs", "Riven"];
+var images = ["assets/images/blue.jpg", "assets/images/purple.jpg", "assets/images/pink.jpg", "assets/images/green.jpg"];
+var imgAlts = ["Blue Crystal", "Purple Crystal", "Pink Crystal", "Green Crystal"];
 
 var target;
 var score;
