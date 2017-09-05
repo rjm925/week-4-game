@@ -1,7 +1,12 @@
 var wins = 0;
 var losses = 0;
+<<<<<<< HEAD
+var images = ["assets/images/blue.png", "assets/images/purple.png", "assets/images/yellow.png", "assets/images/red.png"];
+var imgAlts = ["Blue Crystal", "Purple Crystal", "Yellow Crystal", "Red Crystal"];
+=======
 var images = ["assets/images/blue.jpg", "assets/images/purple.jpg", "assets/images/pink.jpg", "assets/images/red.jpg"];
 var imgAlts = ["Blue Crystal", "Purple Crystal", "Pink Crystal", "Red Crystal"];
+>>>>>>> 31524148c1ba3668d5183427cf579dbc4f06ca84
 
 var target;
 var score;
